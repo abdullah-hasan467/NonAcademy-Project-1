@@ -119,11 +119,10 @@ button:hover {
   justify-content: center;
   font-size: 48px;
 }
-.power-bellow{
+.power-bellow {
   font-size: 18px;
   line-height: 5px;
-  color:blue;
-  
+  color: blue;
 }
 
 .power {
@@ -139,7 +138,7 @@ button:hover {
 }
 
 .card {
-  background-color: #8ec5fccc;
+  background-color: #8ec5fc4d;
   padding: 20px;
   border: 1px solid lightskyblue;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
@@ -150,17 +149,37 @@ button:hover {
 #icon-bg {
   background-color: #cbd5e1;
   border-radius: 30% 2px;
-  padding: 5px;
+  padding: 10px;
   font-size: 30px;
 }
 .text-card {
   font-size: 30px;
   font-weight: 500;
-  line-height: 20px;
+  line-height: 30px;
 }
 
 .mini_text-card {
   font-size: 18px;
   color: gray;
   line-height: 20px;
+}
+
+.helpingBlockchain {
+  display: flex;
+  justify-content: center;
+  background-color: #8ec5fc4d;
+  margin-top: 40px;
+}
+
+.help-left {
+}
+.help-left-bold-text {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.help-left-small-text {
+  font-size: 12px;
+  margin-top: -20px;
+  text-align: center;
 }
