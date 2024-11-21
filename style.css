@@ -119,32 +119,48 @@ button:hover {
   justify-content: center;
   font-size: 48px;
 }
+.power-bellow{
+  font-size: 18px;
+  line-height: 5px;
+  color:blue;
+  
+}
 
 .power {
   font-weight: 600;
   display: block;
-  line-height: 70px;
+  line-height: 60px;
 }
 
-.powercard{
+.powercard {
   display: flex;
   justify-content: center;
-  
+  margin-top: 40px;
 }
 
-.card{
-  background-color: #8ec5fcCC;
+.card {
+  background-color: #8ec5fccc;
   padding: 20px;
-  border: 1px solid lightskyblue ;
-   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  border: 1px solid lightskyblue;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  margin: 20px 30px;
 }
 
-#icon-bg{
+#icon-bg {
   background-color: #cbd5e1;
-  border: 2px 15%;
-  padding: 10px;
+  border-radius: 30% 2px;
+  padding: 5px;
+  font-size: 30px;
+}
+.text-card {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 20px;
 }
 
-
-
-
+.mini_text-card {
+  font-size: 18px;
+  color: gray;
+  line-height: 20px;
+}
