@@ -188,10 +188,14 @@ button:hover {
 }
 
 .help-right{
-  display: flex;
-  justify-content: space-between;
+  
   margin-left: 30px;
   margin-top: 40px;
+
+}
+
+.right-flex{
+  display: flex;
 
 }
 
