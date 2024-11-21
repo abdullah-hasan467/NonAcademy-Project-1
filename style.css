@@ -9,6 +9,11 @@ body {
   background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
 }
 
+.image-logo {
+  height: 50px;
+  width: 50x;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
