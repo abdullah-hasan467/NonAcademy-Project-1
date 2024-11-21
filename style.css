@@ -37,7 +37,6 @@ body {
 
 .nav_links li a:hover {
   color: black;
-  
 }
 
 button {
@@ -58,33 +57,54 @@ button:hover {
   margin-left: 10px;
 }
 
-
-.bannerSection{
+.bannerSection {
   display: flex;
-  justify-content:space-between;
-  background-color: #b7c4fcCC;
+  justify-content: space-between;
+  background-color: #b7c4fccc;
 }
-.banner-left{
+.banner-left {
   justify-content: center;
   margin: 20px;
-
-
 }
 
-.bannerMaintext{
+.bannerMaintext {
   color: white;
   font-size: 60px;
   text-align: center;
 }
-.bannerminitext{
-   color: black;
+.bannerminitext {
+  color: black;
   font-size: 24px;
   text-align: center;
   text-align: justify;
 }
 
-.btn-banner{
+.btn-banner {
   margin: 20px;
   justify-content: center;
+}
 
+.clients {
+  justify-content: center;
+}
+
+.clits_text {
+  font-size: 60px;
+  color: wheat;
+  text-align: center;
+}
+.clits_text_small {
+  font-size: 12px;
+  margin-top: -30px;
+  text-align: center;
+}
+
+.logo-clienst {
+  margin-left: 200px;
+  margin-right: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.clientslogo{
+  width: 50px;
 }
