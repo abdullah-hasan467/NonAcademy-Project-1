@@ -148,7 +148,7 @@ button:hover {
 
 #icon-bg {
   background-color: #cbd5e1;
-  border-radius: 30% 2px;
+  border-radius: 40% 5px 40% 5px;
   padding: 10px;
   font-size: 30px;
 }
@@ -169,7 +169,6 @@ button:hover {
   justify-content: center;
   background-color: #8ec5fc4d;
   margin-top: 40px;
-
 }
 
 .help-left {
@@ -187,37 +186,33 @@ button:hover {
   text-align: center;
 }
 
-.help-right{
-  
+.help-right {
   margin-left: 30px;
   margin-top: 40px;
-
 }
 
-.right-flex{
+.right-flex {
   display: flex;
-
 }
 
-.right-1{
+.right-1 {
   display: flex;
   justify-content: space-between;
 }
 
-
-#icon-logo-right{
+#icon-logo-right {
   font-size: 24px;
   margin-right: 25px;
   color: greenyellow;
   margin-left: 35px;
 }
 
-.usertotal{
-  margin-top: -30px ;
+.usertotal {
+  margin-top: -30px;
   font-size: 18px;
 }
 
-.blockchaintext{
+.blockchaintext {
   color: gray;
   font-weight: 400;
   margin-top: -20px;
@@ -225,6 +220,6 @@ button:hover {
   text-align: center;
 }
 
-.right-1{
+.right-1 {
   margin-left: 60px;
 }
