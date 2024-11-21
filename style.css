@@ -37,7 +37,7 @@ body {
 
 .nav_links li a:hover {
   color: black;
-  background-color: white;
+  
 }
 
 button {
@@ -56,4 +56,35 @@ button:hover {
 
 #icon-arrow-right {
   margin-left: 10px;
+}
+
+
+.bannerSection{
+  display: flex;
+  justify-content:space-between;
+  background-color: #b7c4fcCC;
+}
+.banner-left{
+  justify-content: center;
+  margin: 20px;
+
+
+}
+
+.bannerMaintext{
+  color: white;
+  font-size: 60px;
+  text-align: center;
+}
+.bannerminitext{
+   color: black;
+  font-size: 24px;
+  text-align: center;
+  text-align: justify;
+}
+
+.btn-banner{
+  margin: 20px;
+  justify-content: center;
+
 }
