@@ -169,6 +169,7 @@ button:hover {
   justify-content: center;
   background-color: #8ec5fc4d;
   margin-top: 40px;
+
 }
 
 .help-left {
@@ -176,10 +177,50 @@ button:hover {
 .help-left-bold-text {
   font-size: 36px;
   line-height: 40px;
+  margin-right: 30px;
+  text-align: center;
 }
 
 .help-left-small-text {
   font-size: 12px;
   margin-top: -20px;
   text-align: center;
+}
+
+.help-right{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-top: 40px;
+
+}
+
+.right-1{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#icon-logo-right{
+  font-size: 24px;
+  margin-right: 25px;
+  color: greenyellow;
+  margin-left: 35px;
+}
+
+.usertotal{
+  margin-top: -30px ;
+  font-size: 18px;
+}
+
+.blockchaintext{
+  color: gray;
+  font-weight: 400;
+  margin-top: -20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.right-1{
+  margin-left: 60px;
 }
