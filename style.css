@@ -252,3 +252,43 @@ button:hover {
   margin-top: -30px;
   text-align: center;
 }
+
+.parallel_text{
+  display: block;
+  justify-content: center;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.parallel_text-1{
+  margin-top: 40px;
+
+}
+
+.image-future{
+ border-radius: 15px;
+  height: 200px;
+  width: 300px;
+   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+   z-index: 1;
+   position: relative;
+}
+
+
+.overlapfuture{
+  background-color: #8ec5fc;
+  height:150px;
+  width: 250px;
+  border: 2px solid red;
+  margin-left: 20px;
+  margin-top: -80px;
+  z-index: 2;
+  position: absolute;
+}
+
+.overlapfutureText{
+  text-align: center;
+  margin: 15px;
+  padding: 10px;
+  
+}
