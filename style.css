@@ -453,6 +453,17 @@ button:hover {
   margin-left: 10px;
 }
 
+/* #logoid:first-child:hover {
+  background-color: #ff58c0;
+}
+#logoid > :nth-child(2):hover {
+  background-color: black;
+}
+
+#logoid > :nth-child(3):hover {
+  background-color: #fcaf45;
+} */
+
 .footermiddle {
   display: flex;
   justify-content: space-around;
