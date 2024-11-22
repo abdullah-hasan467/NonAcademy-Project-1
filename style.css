@@ -228,3 +228,27 @@ button:hover {
 .right-1 {
   margin-left: 60px;
 }
+
+.blockchainFuture {
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.blockchainFutureText {
+  justify-content: center;
+  text-align: center;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.blockchainFutureTextHeader {
+  font-size: 48px;
+  text-align: center;
+}
+
+.blockchainFutureTextbody {
+  max-width: 50%;
+  margin: 0 auto;
+  margin-top: -30px;
+  text-align: center;
+}
