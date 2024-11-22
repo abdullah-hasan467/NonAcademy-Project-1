@@ -389,10 +389,11 @@ button:hover {
 }
 
 .textcomment {
-  margin-left: 50px;
+  margin-left: 58px;
   margin-top: 20px;
   background-color: #8ec5fc;
   padding: 10px;
+  display: inline-block;
 }
 
 .labelnameCom {
