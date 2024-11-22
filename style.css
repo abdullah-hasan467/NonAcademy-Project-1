@@ -349,7 +349,7 @@ button:hover {
 
 .contractusform {
   background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
-  height: 350px;
+  height: 370px;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   width: 400px;
   align-items: center;
@@ -374,7 +374,7 @@ button:hover {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-right: 20px;
   font-size: 18px;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-bottom: 10px;
 }
 
@@ -407,8 +407,10 @@ button:hover {
 .buttncommen {
   display: flex; /* Enable Flexbox */
   align-items: center; /* Center vertically */
-  justify-content: center; /* Center horizontally */
+  justify-content: center;
+  margin-top: 10px; /* Center horizontally */
 }
+
 .btn-submit {
   display: flex;
   align-items: center;
