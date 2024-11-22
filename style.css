@@ -156,8 +156,13 @@ button:hover {
 
 .powercard {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
   margin-top: 40px;
+  width: 100%; /* Use full width of the container */
+  max-width: 1360px; /* Max width to control the size */
+  margin-left: auto; /* Center content horizontally */
+  margin-right: auto; /* Center content horizontally */
 }
 
 .card {
