@@ -302,17 +302,17 @@ button:hover {
   background-color: #e0c3fc;
 }
 
-
-.contractForm{
+.contractForm {
   margin-top: 200px;
   background-color: rgba(142, 197, 252, 0.5);
   display: flex;
   justify-content: space-between;
-  border: 2px solid red;
-  height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  height: 350px;
 }
 
-.imageform{
+.imageform {
   justify-content: center;
   align-items: center;
   margin-top: 50px;
@@ -322,33 +322,64 @@ button:hover {
 .contractusform {
   background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
   height: 200px;
-  border: 2px solid red;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   width: 400px;
   align-items: center;
   margin: 50px;
   position: relative; /* Needed for absolute positioning of formdiv */
 }
 
-.form-header{
+.form-header {
   text-align: center;
   font-family: fantasy;
   font-size: 24px;
-
 }
 
 .formdiv {
   display: flex; /* Ensures that the contents can be centered */
   justify-content: center; /* Centers horizontally */
-  align-items: center; /* Centers vertically */
-  position: absolute; /* Positions the element absolutely within the parent */
-  top: 50%; /* Moves the element 50% down from the top of the parent */
-  left: 50%; /* Moves the element 50% from the left of the parent */
-  transform: translate(-50%, -50%); /* Adjusts position to truly center the element */
+  /* Centers vertically */
+  /* Positions the element absolutely within the parent */
+  /* Adjusts position to truly center the element */
 }
 
-.labelname{
+.labelname {
   font: 400;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-right: 20px;
   font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.input-text {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 12px;
+  padding: 10px;
+  background-color: #a6c1ee;
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.textcomment {
+  margin-left: 50px;
+  margin-top: 20px;
+  background-color: #8ec5fc;
+  padding: 10px;
+}
+
+.labelnameCom {
+  align-items: center;
+  margin-top: 50px;
+  color: black;
+  font-size: 24px;
+}
+
+.btn-submit {
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 50px;
+  width: 200px;
+  padding: 5px;
 }
