@@ -408,21 +408,56 @@ button:hover {
 
 #logoid {
   font-size: 24px;
+  background-color: lightgrey;
+  padding: 7px;
+  border-radius: 10px;
+  margin-left: 10px;
 }
 
 .footermiddle {
   display: flex;
   justify-content: space-around;
+  margin-top: 40px;
+}
+.footermiddle-1 {
+  margin-right: 40px;
+  align-items: center;
+}
+
+.footersmalltext {
+  font-size: larger;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.footterminitext {
+  font-size: small;
+  color: black;
+  margin-top: -20px;
+  font-weight: 400;
+}
+
+
+.footer-right{
+  margin-top: 50px;
+  margin-right: 80px;
+}
+.copyright {
+  font-size: small;
 }
 
 .input-container {
   position: relative;
   width: 100%;
+  background-color:#FFFFFF80 ;
+  border-radius: 25px;
 }
 
 .input-container input {
   width: 100%;
-  padding-right: 30px; /* Add padding to the right to make room for the icon */
+  padding-right: 40px;
+  padding: 10px;
+  margin-right: 50px; /* Add padding to the right to make room for the icon */
 }
 
 .input-container i {
