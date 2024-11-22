@@ -253,42 +253,102 @@ button:hover {
   text-align: center;
 }
 
-.parallel_text{
-  display: block;
+.parallel_text {
+  display: flex;
   justify-content: center;
   max-width: 80%;
   margin: 0 auto;
 }
 
-.parallel_text-1{
+.parallel_text-1 {
   margin-top: 40px;
-
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-.image-future{
- border-radius: 15px;
+.image-future {
+  border-radius: 15px;
   height: 200px;
   width: 300px;
-   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
-   z-index: 1;
-   position: relative;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  position: relative;
 }
 
-
-.overlapfuture{
-  background-color: #8ec5fc;
-  height:150px;
+.overlapfuture {
+  background-color: rgba(142, 197, 252, 0.5);
+  height: 180px;
   width: 250px;
-  border: 2px solid red;
   margin-left: 20px;
   margin-top: -80px;
   z-index: 2;
   position: absolute;
+  border-radius: 10px;
 }
 
-.overlapfutureText{
+.overlapfutureText {
   text-align: center;
-  margin: 15px;
+  margin: 10px;
   padding: 10px;
-  
+}
+
+.overlapfuturered {
+  text-align: center;
+  font-size: 18px;
+  margin-left: 50px;
+}
+
+.overlapfuture:hover {
+  background-color: #e0c3fc;
+}
+
+
+.contractForm{
+  margin-top: 200px;
+  background-color: rgba(142, 197, 252, 0.5);
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid red;
+  height: 300px;
+}
+
+.imageform{
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.contractusform {
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  height: 200px;
+  border: 2px solid red;
+  width: 400px;
+  align-items: center;
+  margin: 50px;
+  position: relative; /* Needed for absolute positioning of formdiv */
+}
+
+.form-header{
+  text-align: center;
+  font-family: fantasy;
+  font-size: 24px;
+
+}
+
+.formdiv {
+  display: flex; /* Ensures that the contents can be centered */
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  position: absolute; /* Positions the element absolutely within the parent */
+  top: 50%; /* Moves the element 50% down from the top of the parent */
+  left: 50%; /* Moves the element 50% from the left of the parent */
+  transform: translate(-50%, -50%); /* Adjusts position to truly center the element */
+}
+
+.labelname{
+  font: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  font-size: 18px;
 }
