@@ -384,32 +384,51 @@ button:hover {
   padding: 5px;
 }
 
-
-.footer{
+.footer {
   background-color: azure;
   margin-top: 100px;
   min-height: 50vh;
-display: flex;
-justify-content: space-between;
-
-}
-
-.footerheader {   
-        /* Enables Flexbox */
-  justify-content: center;   /* Centers horizontally */
-  align-items: center;       /* Centers vertically */
-  margin-left: 80px;         /* Keeps your left margin */
-  height: 100%;  
-  margin-top:50px;            /* Ensures it takes full height of its parent */
-}
-
-
-.logofoot{
   display: flex;
   justify-content: space-between;
 }
 
-#logoid{
+.footerheader {
+  /* Enables Flexbox */
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  margin-left: 80px; /* Keeps your left margin */
+  height: 100%;
+  margin-top: 50px; /* Ensures it takes full height of its parent */
+}
+
+.logofoot {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logoid {
   font-size: 24px;
-  
+}
+
+.footermiddle {
+  display: flex;
+  justify-content: space-around;
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+}
+
+.input-container input {
+  width: 100%;
+  padding-right: 30px; /* Add padding to the right to make room for the icon */
+}
+
+.input-container i {
+  position: absolute;
+  right: 10px; /* Adjust the position of the icon from the right edge */
+  top: 50%;
+  transform: translateY(-50%); /* Vertically centers the icon */
+  pointer-events: none; /* Prevent the icon from interfering with user input */
 }
