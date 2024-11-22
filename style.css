@@ -43,7 +43,7 @@ body {
 }
 
 .nav_links li a:hover {
-  color:white;
+  color: white;
 }
 
 button {
@@ -270,8 +270,17 @@ button:hover {
 
 .image-future {
   border-radius: 15px;
+  height: 200px;
+  width: 300px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  position: relative;
+}
+
+.image-futures {
+  border-radius: 15px;
   height: 300px;
-  width: 500px;
+  width: 600px;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
   z-index: 1;
   position: relative;
