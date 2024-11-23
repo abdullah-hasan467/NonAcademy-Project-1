@@ -774,21 +774,27 @@ button:hover {
     height: 100px;
     margin-left: -80px;
   }
-
-  .power,
-  powermini {
-    font-size: 18px;
-    line-height: 20px;
-  }
-  .powercard {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
-  .parallel_text {
+ .parallel_text {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+ .parallel_text-1{
+  margin: 20px 5px;
+ }
+
+ .overlapfuture{
+  height: 50px;
+  width: 100px;
+ }
+.overlapfuturered{
+ font-size:5px ;
+ height: 20px;
+ width: 100px;
+ justify-content:center ;
+ align-items: center;
+ margin-left: -10px;
+}
+ 
 
   .contractForm {
     display: grid;
