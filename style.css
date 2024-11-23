@@ -397,7 +397,7 @@ button:hover {
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   width: 400px;
   align-items: center;
-  margin: 50px ;
+  margin: 50px;
   /* Needed for absolute positioning of formdiv */
 }
 
@@ -805,7 +805,7 @@ button:hover {
     font-size: 24px;
     line-height: 30px;
   }
-  
+
   .powerBlockchain {
     width: 100%;
   }
@@ -814,23 +814,22 @@ button:hover {
     flex-direction: column;
   }
 
-    .contractForm {
-   display: flex;
-   flex-direction: column;
-   height: 60%;
+  .contractForm {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
   }
 
-  .imageform{
+  .imageform {
     justify-content: center;
     align-items: center;
     width: 100%;
- 
   }
-  .image-futures{
+  .image-futures {
     margin-top: 20px;
     margin-left: 20px;
   }
-  .contractusform{
+  .contractusform {
     width: 90%;
     justify-content: center;
     align-items: center;
@@ -844,13 +843,26 @@ button:hover {
 
   .footer {
     margin-top: 200px;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3);
     justify-content: center;
   }
+  .footerheader {
+    justify-content: ;
+    align-items: center;
+  }
+  .copyright {
+    margin-left: -10px;
+  }
+  .logofoot {
+    margin-left: -50px;
+    margin-right: 50px;
+  }
   .footerleft {
     width: 100%;
     margin-left: -50px;
+    margin-top: 50px;
   }
 
   .footermiddle {
