@@ -774,34 +774,47 @@ button:hover {
     height: 100px;
     margin-left: -80px;
   }
- .parallel_text {
+  .parallel_text {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
- .parallel_text-1{
-  margin: 20px 5px;
- }
+  .parallel_text-1 {
+    margin: 20px 5px;
+  }
 
- .overlapfuture{
-  height: 50px;
-  width: 100px;
- }
-.overlapfuturered{
- font-size:5px ;
- height: 20px;
- width: 100px;
- justify-content:center ;
- align-items: center;
- margin-left: -10px;
-}
- 
+  .overlapfuture {
+    height: 50px;
+    width: 100px;
+  }
+  .overlapfuturered {
+    font-size: 5px;
+    height: 20px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10px;
+  }
+
+  .imageform {
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-futures {
+    width: 280px;
+    height: 200px;
+  }
 
   .contractForm {
     display: grid;
     width: 100%;
     grid-template-columns: 1fr;
     margin-bottom: 400px;
+    display: none;
   }
+  .formdivsupport {
+  }
+
   .footer {
     display: grid;
     grid-template-columns: repeat(3);
