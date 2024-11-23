@@ -389,7 +389,6 @@ button:hover {
   justify-content: center;
   align-items: center;
   margin-top: 100px;
-  margin-left: 100px;
 }
 
 .contractusform {
@@ -398,8 +397,8 @@ button:hover {
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   width: 400px;
   align-items: center;
-  margin: 50px;
-  position: relative; /* Needed for absolute positioning of formdiv */
+  margin: 50px ;
+  /* Needed for absolute positioning of formdiv */
 }
 
 .form-header {
@@ -807,7 +806,7 @@ button:hover {
     width: 100%;
     grid-template-columns: 1fr;
     margin-bottom: 400px;
-    display: none;
+   
   }
 
   .power {
