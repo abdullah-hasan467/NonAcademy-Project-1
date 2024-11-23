@@ -220,7 +220,7 @@ button:hover {
   text-align: center;
 }
 
-.help-right {
+/* .help-right {
   margin-left: 30px;
   margin-top: 40px;
 }
@@ -239,6 +239,40 @@ button:hover {
   margin-right: 25px;
   color: greenyellow;
   margin-left: 35px;
+} */
+
+.statistics-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 equal-width columns */
+  grid-template-rows: repeat(2, auto); /* 2 rows with automatic height */
+  gap: 20px; /* Space between grid items */
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* Optional: Add background color */
+  padding: 20px;
+  border-radius: 8px; /* Optional: Add border radius for rounded corners */
+}
+
+.stat-icon {
+  font-size: 24px;
+  margin-right: 25px;
+  color: greenyellow;
+  margin-left: 35px; /* Space between icon and text */
+}
+
+.stat-info h3 {
+  margin: 0;
+  font-size: 24px; /* Adjust size as necessary */
+}
+
+.stat-description {
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
 }
 
 .usertotal {
@@ -517,9 +551,11 @@ button:hover {
   pointer-events: none; /* Prevent the icon from interfering with user input */
 }
 
-/* For screens with a max width of 320px */
+.right-2 {
+  display: grid;
+}
+
 @media only screen and (max-width: 320px) {
- 
   .navbar {
     display: inline-block;
     text-align: left;
@@ -527,7 +563,6 @@ button:hover {
   }
 
   .nav-links {
-    /* Add styles if needed */
   }
 
   .nav-class ul li a {
@@ -538,7 +573,7 @@ button:hover {
     display: grid;
     grid-template-columns: 1fr;
     width: fit-content;
-    grid-gap: 10px; /* To add space between grid items */
+    grid-gap: 10px;
     grid-template-areas:
       "right"
       "left";
@@ -572,7 +607,7 @@ button:hover {
   }
 
   .clients {
-    width: 100%; /* Changed to 100% instead of 100vh */
+    width: 100%;
   }
 
   .clients_zone {
@@ -580,19 +615,72 @@ button:hover {
     justify-content: center;
   }
 
-  .logo-clients {
+  .logo-clienst {
+    margin: 60px 60px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 items per row */
     justify-content: center;
     align-items: center;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 30px;
   }
-
-  .powercard {
+  .power-bellow {
+    font-size: 12px;
+  }
+  .helpingBlockchain {
+    width: fit-content;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    gap: 30px; /* Make sure the container takes full viewport height */
+  }
+  .statistics-container {
+    margin-right: 20px;
   }
 
   .blockchainFuture {
+    width: fit-content;
+  }
+
+  .parallel_text {
+    width: fit-content;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .parallel_text-1 {
+    width: 90px;
+    gap: 20px;
+    position: relative;
+    margin-right: 50px;
+    margin-top: 100px;
+  }
+  .image-future {
+    width: 150px;
+    height: 70px;
+  }
+
+  .overlapfutureText {
+    font-size: 5px;
+  }
+
+  .overlapfuturered {
+    margin-top: 0px;
+    margin-right: -0px;
+  }
+
+  .overlapfuture {
+    position: relative;
+    width: 100px;
+    height: 70px;
+  }
+  .power,
+  powermini {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .powercard {
     display: grid;
     grid-template-columns: 1fr;
   }
@@ -605,5 +693,13 @@ button:hover {
   .contractForm {
     display: grid;
     grid-template-columns: 1fr;
+    margin-bottom: 400px;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(3);
+    justify-content: center;
+    margin-bottom: 50px;
   }
 }
