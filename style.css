@@ -875,6 +875,10 @@ button:hover {
 
 
 @media only screen and (max-width: 425px) {
+  .container{
+    display: 100%;
+
+  }
   .navbar {
     display: inline-block;
     text-align: left;
