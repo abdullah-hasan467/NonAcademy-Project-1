@@ -641,9 +641,6 @@ button:hover {
   }
 
   .bannerImage {
-    justify-content: center;
-    align-items: center;
-    text-align: left;
     width: 250px;
     height: 150px;
     margin-left: -30px;
@@ -812,7 +809,19 @@ button:hover {
     margin-bottom: 400px;
     display: none;
   }
+
+  .power {
+    font-size: 24px;
+    line-height: 30px;
+  }
   .formdivsupport {
+  }
+  .powerBlockchain {
+    width: 100%;
+  }
+  .powercard {
+    display: flex;
+    flex-direction: column;
   }
 
   .footer {
