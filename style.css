@@ -693,8 +693,8 @@ button:hover {
   }
 
   .parallel_text-1 {
-    width: 90px;
-    gap: 20px;
+    width: 100%;
+    gap: 10px;
     position: relative;
     margin-right: 50px;
     margin-top: 100px;
@@ -704,34 +704,51 @@ button:hover {
     height: 70px;
   }
 
-  .helpingBlockchain{
-    width:100%;
+  .helpingBlockchain {
+    width: 100%;
   }
-  .help-left{
-    width: 80%;
+  .help-left {
+    width: 100%;
     justify-content: center;
     align-content: center;
   }
 
-  .help-left-bold-text{
+  .help-left-bold-text {
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin-left: 120px;
-    font-size: 18px;
-    line-height: 20px;
+    margin: 20px 20px;
+    font-size: 28px;
+    line-height: 30px;
     margin-bottom: 30px;
   }
 
-  .help-left-small-text{
+  .help-left-small-text {
     text-align: center;
-    margin-left: 100px;
+    margin: 0 20px;
     margin-top: 20px;
   }
-  
-.stat-item{
-  width: 100%;
-}
+  .statistics-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .blockchainFuture {
+    width: 100%;
+  }
+
+  .blockchainFutureText {
+  }
+  .blockchainFutureTextHeader {
+    font-size: 24px;
+    margin-bottom: 60px;
+  }
+  .blockchainFutureTextbody {
+    font-size: 8px;
+
+    text-align: center;
+  }
+
   .overlapfutureText {
     font-size: 5px;
   }
@@ -757,6 +774,7 @@ button:hover {
     height: 100px;
     margin-left: -80px;
   }
+
   .power,
   powermini {
     font-size: 18px;
