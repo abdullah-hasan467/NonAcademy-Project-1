@@ -461,7 +461,6 @@ button:hover {
   margin-left: 10px;
 }
 
-
 .footermiddle {
   display: flex;
   justify-content: space-around;
@@ -513,4 +512,93 @@ button:hover {
   top: 50%;
   transform: translateY(-50%); /* Vertically centers the icon */
   pointer-events: none; /* Prevent the icon from interfering with user input */
+}
+
+/* For screens with a max width of 320px */
+@media screen and (max-width: 320px) {
+  .bannerSection {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 90%;
+    grid-gap: 10px; /* To add space between grid items */
+    grid-template-areas:
+      "right" /* Right element goes first */
+      "left"; /* Left element goes second */
+  }
+  .banner-left {
+    grid-area: left;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  .banner-right {
+    grid-area: right;
+  }
+.logo-clienst{
+   display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 items per row */
+    grid-gap: 20px; /* Space between images */
+    width: 90%;
+    margin: 0 auto; 
+}
+
+.powercard{
+  display: grid;
+    grid-template-columns:1fr;
+}
+
+}
+
+/* For screens with a max width of 425px */
+@media screen and (max-width: 425px) {
+  .bannerSection {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 90%;
+    grid-gap: 10px; /* To add space between grid items */
+    grid-template-areas:
+      "right" /* Right element goes first */
+      "left"; /* Left element goes second */
+  }
+  .banner-left {
+    grid-area: left;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  .banner-right {
+    grid-area: right;
+  }
+
+  .blockchainFuture{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .parallel_text{
+     display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .contractForm{
+    display: grid;
+    grid-template-columns: 1fr);
+  }
+}
+
+/* For screens with a max width of 768px */
+@media screen and (max-width: 768px) {
+  .bannerSection {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 90%;
+    grid-gap: 10px; /* To add space between grid items */
+    grid-template-areas:
+      "right" /* Right element goes first */
+      "left"; /* Left element goes second */
+  }
+  .banner-left {
+    grid-area: left;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  .banner-right {
+    grid-area: right;
+  }
 }
