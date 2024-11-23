@@ -559,7 +559,7 @@ button:hover {
     display: inline-block;
     text-align: left;
     width: fit-content;
-    width: 320px;
+    width:100%;
   }
   .nav-class {
     width: fit-content;
@@ -567,10 +567,10 @@ button:hover {
   }
 
   .nav-links {
-    width: 320px;
+    width: 100%;
   }
   .nav-links ul {
-    width: 320px;
+    width: 100%;
     display: block;
 
     margin-left: -30px;
@@ -586,7 +586,7 @@ button:hover {
     text-align: center;
     font-size: 12px;
     margin-left: -50px;
-    margin-right: 20px;
+    margin-right: 50px;
   }
   button {
     width: 50%;
@@ -605,7 +605,7 @@ button:hover {
   .banner-left {
     margin-top: 30px;
     justify-content: center;
-    width: 150px;
+    width: 250px;
   }
   .bannerMaintext {
     justify-content: center;
@@ -640,7 +640,7 @@ button:hover {
   }
 
   .bannerImage {
-    width: 250px;
+    width: 300px;
     height: 150px;
     margin-left: -30px;
   }
