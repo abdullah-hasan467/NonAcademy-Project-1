@@ -801,20 +801,11 @@ button:hover {
     height: 200px;
   }
 
-  .contractForm {
-    display: grid;
-    width: 100%;
-    grid-template-columns: 1fr;
-    margin-bottom: 400px;
-   
-  }
-
   .power {
     font-size: 24px;
     line-height: 30px;
   }
-  .formdivsupport {
-  }
+  
   .powerBlockchain {
     width: 100%;
   }
@@ -823,7 +814,36 @@ button:hover {
     flex-direction: column;
   }
 
+    .contractForm {
+   display: flex;
+   flex-direction: column;
+   height: 60%;
+  }
+
+  .imageform{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+ 
+  }
+  .image-futures{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .contractusform{
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-left: 4px;
+    margin-top: 50px;
+    padding: 12px;
+  }
+  .formdivsupport {
+  }
+
   .footer {
+    margin-top: 200px;
     display: grid;
     grid-template-columns: repeat(3);
     justify-content: center;
