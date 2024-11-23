@@ -519,7 +519,7 @@ button:hover {
   .bannerSection {
     display: grid;
     grid-template-columns: 1fr;
-    width: 90%;
+    width: 10%;
     grid-gap: 10px; /* To add space between grid items */
     grid-template-areas:
       "right" /* Right element goes first */
@@ -533,19 +533,30 @@ button:hover {
   .banner-right {
     grid-area: right;
   }
-.logo-clienst{
-   display: grid;
+  .logo-clienst {
+    display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 items per row */
     grid-gap: 20px; /* Space between images */
     width: 90%;
-    margin: 0 auto; 
-}
+    margin: 0 auto;
+  }
 
-.powercard{
-  display: grid;
-    grid-template-columns:1fr;
-}
-
+  .powercard {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .blockchainFuture {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .parallel_text {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contractForm {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 
 /* For screens with a max width of 425px */
@@ -568,17 +579,17 @@ button:hover {
     grid-area: right;
   }
 
-  .blockchainFuture{
+  .blockchainFuture {
     display: grid;
     grid-template-columns: 1fr;
   }
-  .parallel_text{
-     display: grid;
-    grid-template-columns: repeat(2,1fr);
-  }
-  .contractForm{
+  .parallel_text {
     display: grid;
-    grid-template-columns: 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contractForm {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
 
