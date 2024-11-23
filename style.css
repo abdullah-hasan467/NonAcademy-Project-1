@@ -554,39 +554,31 @@ button:hover {
   display: grid;
 }
 
-@media only screen and (max-width: 410px) {
+@media only screen and (max-width: 320px) {
   .navbar {
     display: inline-block;
     text-align: left;
     width: fit-content;
-    width:100%;
+    width: 100%;
   }
   .nav-class {
-    width: fit-content;
-    display: inline-block;
+    margin-left: -100px;
   }
 
   .nav-links {
-    width: 100%;
   }
   .nav-links ul {
-    width: 100%;
     display: block;
-
-    margin-left: -30px;
   }
   .nav-links ul li {
-    width: 320px;
-    display: inline-block;
-
-    margin-left: -30px;
+    margin-right: -50px;
   }
 
   .nav-class ul li a {
-    text-align: center;
+    text-align: left;
     font-size: 12px;
-    margin-left: -50px;
-    margin-right: 50px;
+    margin-left: 0;
+    margin-right: -20px;
   }
   button {
     width: 50%;
@@ -640,9 +632,329 @@ button:hover {
   }
 
   .bannerImage {
-    width: 300px;
+    width: 250px;
     height: 150px;
-    margin-left: -30px;
+    margin-left: -15px;
+  }
+
+  .clients {
+    width: 100%;
+  }
+
+  .clients_zone {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo-clienst {
+    width: fit-content;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 30px;
+  }
+  .power-bellow {
+    font-size: 12px;
+  }
+  .helpingBlockchain {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    gap: 30px; /* Make sure the container takes full viewport height */
+  }
+  .statistics-container {
+    margin-right: 20px;
+  }
+
+  .blockchainFuture {
+    width: fit-content;
+  }
+
+  .parallel_text {
+    width: fit-content;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .parallel_text-1 {
+    width: 100%;
+    gap: 10px;
+    position: relative;
+    margin-right: 50px;
+    margin-top: 100px;
+  }
+  .image-future {
+    width: 150px;
+    height: 70px;
+  }
+
+  .helpingBlockchain {
+    width: 100%;
+  }
+  .help-left {
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .help-left-bold-text {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 20px 20px;
+    font-size: 28px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+
+  .help-left-small-text {
+    text-align: center;
+    margin: 0 20px;
+    margin-top: 20px;
+  }
+  .statistics-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .blockchainFuture {
+    width: 100%;
+  }
+
+  .blockchainFutureText {
+  }
+  .blockchainFutureTextHeader {
+    font-size: 24px;
+    margin-bottom: 60px;
+  }
+  .blockchainFutureTextbody {
+    font-size: 8px;
+
+    text-align: center;
+  }
+
+  .overlapfutureText {
+    font-size: 5px;
+  }
+
+  .overlapfuturered {
+    margin-top: 0px;
+    margin-right: -0px;
+  }
+
+  .overlapfuture {
+    position: relative;
+    width: 100px;
+    height: 70px;
+  }
+
+  .imageform {
+    width: 100px;
+    justify-content: center;
+  }
+
+  .image-futures {
+    width: 250px;
+    height: 100px;
+    margin-left: -80px;
+  }
+  .parallel_text {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .parallel_text-1 {
+    margin: 20px 5px;
+  }
+
+  .overlapfuture {
+    height: 50px;
+    width: 100px;
+  }
+  .overlapfuturered {
+    font-size: 5px;
+    height: 20px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10px;
+  }
+
+  .imageform {
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-futures {
+    width: 280px;
+    height: 200px;
+  }
+
+  .power {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .powerBlockchain {
+    width: 100%;
+  }
+  .powercard {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contractForm {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+  }
+
+  .imageform {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .image-futures {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .contractusform {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-left: 4px;
+    margin-top: 50px;
+    padding: 12px;
+  }
+  .formdivsupport {
+  }
+
+  .footer {
+    margin-top: 200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3);
+    justify-content: center;
+  }
+  .footerheader {
+    justify-content: ;
+    align-items: center;
+  }
+  .copyright {
+    margin-left: -10px;
+  }
+  .logofoot {
+    margin-left: -50px;
+    margin-right: 50px;
+  }
+  .footerleft {
+    width: 100%;
+    margin-left: -50px;
+    margin-top: 50px;
+  }
+
+  .footermiddle {
+    width: 100%;
+    justify-content: center;
+    margin-left: 20px;
+  }
+
+  .footer-right {
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
+  .stay {
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+}
+
+
+@media only screen and (max-width: 425px) {
+  .navbar {
+    display: inline-block;
+    text-align: left;
+    width: fit-content;
+    width: 100%;
+  }
+  .nav-class {
+    margin-left: -100px;
+  }
+
+  .nav-links {
+  }
+  .nav-links ul {
+    display: block;
+  }
+  .nav-links ul li {
+    margin-right: -50px;
+  }
+
+  .nav-class ul li a {
+    text-align: left;
+    font-size: 12px;
+    margin-left: 0;
+    margin-right: -20px;
+  }
+  button {
+    width: 50%;
+  }
+
+  .bannerSection {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: fit-content;
+    grid-template-areas:
+      "right"
+      "left";
+  }
+
+  .banner-left {
+    margin-top: 30px;
+    justify-content: center;
+    width: 250px;
+  }
+  .bannerMaintext {
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    width: 300px;
+    margin-left: -20px;
+    margin-top: -20px;
+  }
+
+  .bannerminitext {
+    font-size: small;
+    text-align: justify;
+    width: 250px;
+    margin-left: 15px;
+  }
+
+  .btn-banner {
+    width: 150px;
+  }
+
+  .banner-right {
+    grid-area: right;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;
+    width: 80%;
+  }
+
+  .bannerImage {
+    width: 250px;
+    height: 150px;
+    margin-left: -15px;
   }
 
   .clients {
