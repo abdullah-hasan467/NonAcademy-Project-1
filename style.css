@@ -704,6 +704,34 @@ button:hover {
     height: 70px;
   }
 
+  .helpingBlockchain{
+    width:100%;
+  }
+  .help-left{
+    width: 80%;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .help-left-bold-text{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 120px;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 30px;
+  }
+
+  .help-left-small-text{
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+  
+.stat-item{
+  width: 100%;
+}
   .overlapfutureText {
     font-size: 5px;
   }
