@@ -77,6 +77,9 @@ button:hover {
   width: 600px;
 }
 
+.banner-right {
+}
+
 .bannerMaintext {
   color: white;
   font-size: 60px;
@@ -109,7 +112,6 @@ button:hover {
 
 .clients {
   justify-content: center;
-  background-color: aqua;
 }
 
 .clits_text {
@@ -516,78 +518,92 @@ button:hover {
 }
 
 /* For screens with a max width of 320px */
-@media screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) {
+ 
   .navbar {
     display: inline-block;
     text-align: left;
+    width: fit-content;
   }
+
+  .nav-links {
+    /* Add styles if needed */
+  }
+
   .nav-class ul li a {
-    text-align: left;
+    text-align: center;
   }
+
   .bannerSection {
     display: grid;
     grid-template-columns: 1fr;
     width: fit-content;
     grid-gap: 10px; /* To add space between grid items */
     grid-template-areas:
-      "right" /* Right element goes first */
-      "left"; /* Left element goes second */
+      "right"
+      "left";
   }
+
   .banner-left {
     grid-area: left;
     margin-top: 20px;
-    margin-left: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;
+    width: 80%;
   }
+
   .banner-right {
     grid-area: right;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;
+    width: 80%;
   }
+
   .bannerImage {
-    margin: 20px 50px;
+    margin: 20px 20px;
     justify-content: center;
     align-items: center;
+    text-align: left;
   }
+
   .clients {
-    width: 100%;
+    width: 100%; /* Changed to 100% instead of 100vh */
   }
 
-  .cliensts_zone {
-    width: 100%;
+  .clients_zone {
     align-items: center;
     justify-content: center;
   }
 
-  .logo-clienst {
+  .logo-clients {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 items per row */
-    grid-gap: 20px; /* Space between images */
-    width: 90%;
-    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
   }
 
   .powercard {
     display: grid;
     grid-template-columns: 1fr;
   }
+
   .blockchainFuture {
     display: grid;
     grid-template-columns: 1fr;
   }
+
   .parallel_text {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+
   .contractForm {
     display: grid;
     grid-template-columns: 1fr;
   }
-}
-
-/* For screens with a max width of 425px */
-@media screen and (max-width: 425px) {
-}
-
-/* For screens with a max width of 768px */
-@media screen and (max-width: 768px) {
 }
