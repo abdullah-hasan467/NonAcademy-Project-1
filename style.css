@@ -569,21 +569,19 @@ button:hover {
 
   .nav-links {
     width: 320px;
-   
   }
   .nav-links ul {
     width: 320px;
     display: block;
-    
+
     margin-left: -30px;
   }
   .nav-links ul li {
     width: 320px;
     display: inline-block;
-    
+
     margin-left: -30px;
   }
-
 
   .nav-class ul li a {
     text-align: center;
@@ -591,19 +589,18 @@ button:hover {
     margin-left: -50px;
     margin-right: 20px;
   }
-  button{
+  button {
     width: 50%;
   }
 
   .bannerSection {
-    width:100%;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr;
     width: fit-content;
     grid-template-areas:
       "right"
       "left";
-      
   }
 
   .banner-left {
@@ -611,9 +608,25 @@ button:hover {
     justify-content: center;
     width: 150px;
   }
-  .bannerMaintext{
-    font-size: 36px;
+  .bannerMaintext {
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
     margin-bottom: 20px;
+    width: 300px;
+    margin-left: -20px;
+    margin-top: -20px;
+  }
+
+  .bannerminitext {
+    font-size: small;
+    text-align: justify;
+    width: 250px;
+    margin-left: 15px;
+  }
+
+  .btn-banner {
+    width: 150px;
   }
 
   .banner-right {
@@ -628,13 +641,12 @@ button:hover {
   }
 
   .bannerImage {
-    margin: 20px 20px;
     justify-content: center;
     align-items: center;
     text-align: left;
     width: 250px;
     height: 150px;
-    margin-left: -20px;
+    margin-left: -30px;
   }
 
   .clients {
@@ -647,7 +659,7 @@ button:hover {
   }
 
   .logo-clienst {
-    margin: 60px 60px;
+    width: fit-content;
     display: grid;
     justify-content: center;
     align-items: center;
